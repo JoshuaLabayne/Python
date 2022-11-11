@@ -8,7 +8,7 @@ print('Hello,', name)
 def countdown():
     global my_timer
 
-    my_timer = 130
+    my_timer = 240
 
     for x in range(my_timer):
         my_timer = my_timer - 1
