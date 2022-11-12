@@ -4,7 +4,7 @@ import threading
 name = input('Please type your name:')
 print('Hello,', name)
 
-
+# function with loop
 def countdown():
     global my_timer
 
@@ -20,6 +20,9 @@ countdown_thread = threading.Thread(target=countdown)
 countdown_thread.start()
 
 score = 0
+
+
+# Loop
 while my_timer > 0:
 
     # 1
@@ -31,7 +34,8 @@ while my_timer > 0:
     print("")
     question1 = input("1. What programming language can handle big data and perform complex mathematics? ")
     sleep(.5)
-
+    
+    # Conditional Statement 
     if question1 == "Python":
         print("Correct")
         score = score + 1
@@ -216,7 +220,8 @@ while my_timer > 0:
         break
 
     # FINAL SCORE
-
+    
+       
     if score >= 7:
         print("Congratulations, " + name + ", your score is " + str(score) + "/10")
         sleep(1)
