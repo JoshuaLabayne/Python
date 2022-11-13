@@ -59,11 +59,7 @@ while my_timer > 0:
         score = score + 1
     elif question2 == "Guido van Rossum":
         print("Correct")
-        score = score + 1
-
-    if my_timer == 0:
-        break
-
+        
     elif question2 == "guido van rossum":
         print("Correct")
         score = score + 1
