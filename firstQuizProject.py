@@ -224,3 +224,5 @@ while my_timer > 0:
     else:
         print("Better luck next time, " + name + ", your score is " + str(score) + "/10")
         sleep(1)
+        
+         break
